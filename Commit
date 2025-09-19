@@ -1,0 +1,38 @@
+git clone [your-repo-url]
+cd comp163-personal-portfolio
+# Development workflow (repeat for each change)
+git add chaseparker_assignment_3.py
+git status # Check what's staged
+git commit -m "Initial portfolio with test data from Part 1"
+git commit -m "Update personal information with real data"
+git commit -m "changed the old date about Jordan Smith, and made it about me reguarding my email,name,graduation date,major,etc"
+git commit -m "Add real academic data and course information"
+git commit -m "Updated my classes by either changing the type of subject (Math 150 --> 110) or compleatly adding a new class like Freshman studies 101"
+git commit -m "Since im a freshman, i added the only two classes I have  "College Credit for""
+git commit -m "sing predicted GPA standings for each 6 classes"
+git commit -m "adding and updating my classes and their respectable credits"
+git commit -m "Adding the correct professor names to it"
+git commit -m "Adding the correct classroom names to it"
+git commit -m "Add personal budget and contact information"
+git commit -m "Customize skills, interests, and career goals"
+git commit -m"Simply updating my skills,hobbies, and entertainment system"
+git commit -m "Updating how much I monthy spend of books,Food,Etertainment,Transportation monthly"
+git commit -m "Showing my relaistic study hours for my classes"
+git commit -m "Just updating my name and my,my roomates, and advisors "numbers"
+git commit -m "adding extra to the study_avg due to more classes being added"
+git commit -m "wanted to use a namedtuple to be creative, but using tuple=("","","","")"
+git commit -m "it says per hour so I had to reduce it as it was seen as credit hours + study hours per week"
+git commit -m "#simply updating the indexing base don the correct classes with extra prints for the 2 extra classes"
+git log --oneline # See your commit history
+git push origin main # Upload to GitHub
+# Documentation
+git add README.md
+git commit -m "A Python program demonstrating aspects about your fall semsetser, with your current classes, old classes, GPA, Credits,skills, hobbies and interest, and other aspects about your semester. "
+git push origin main
+
+
+
+
+
+
+
